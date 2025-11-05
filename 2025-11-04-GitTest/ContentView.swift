@@ -13,6 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .resizable()
                 .scaledToFit()
+                .frame(width: 300, height: 300)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
         }
